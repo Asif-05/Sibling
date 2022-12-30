@@ -1,0 +1,144 @@
+
+
+   Back end testing
+
+
+       Client - Server 
+
+
+        Client - sends request to the server
+     
+
+                 Ex:  google chrome  
+
+     
+      Browser as a client program
+
+
+      
+      Server will respond to the client's request
+
+
+
+
+     Three tier architecture
+
+
+     client       -- request to server
+
+
+     middleware   -- it will balance the load to the server
+
+
+     Server       -- response to client
+
+
+
+
+
+
+    RDBMS - data is stored as table and it is a multiple user system
+
+          - combining tables(joins)
+
+          - imposing conditions (constraints)
+
+          - Distributed system  
+
+
+    DBMS - data is stored as file and it is a single user system
+
+
+
+     MySQL - 
+
+
+         - download mysql and install
+
+
+         - through xampp is web server
+
+
+         - online free compilers
+
+
+
+     MySQL workbench   - type and execute the queries
+
+
+   step 1: create a database
+
+           syntax: create database database_name;
+
+           example: create database sample;          
+
+
+   step 2: create a table(combo of rows and column)
+
+           syntax: create table table_name(column_name1 datatype(length), column_name2 datatype(length));
+
+           example: create table first(name varchar(10), empid varchar(10),location varchar(10),salary int(5))            
+             
+                           Ex: 'rajesh'  
+
+                               'S123'  
+
+ 
+
+    syntax: desc table_name;
+
+    to describe(structure) the table 
+
+
+   step 3: insert rows/records
+
+
+       syntax: insert into table_name values('varchar column1','varchar column2',int column3);
+
+               insert into sample values('Rajesh','S123','Chennai',30000);
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+         
+
+
+
+
+    
+
+
+
+
+     
+
+
+
+
+  
+    
+
+
+ 
+
+
+
+
+      

@@ -1,0 +1,74 @@
+SELECT 7 DIV 3;
+
+
+select pi();
+
+
+select exp(4);
+
+
+select pow(4,2);
+
+select floor(-12.3);
+
+
+SELECT GREATEST(8, 9, 10);
+Result: 10
+
+
+SELECT GREATEST('Asif','Sachin', 'Rahul');
+Result:Sachin
+
+
+SELECT ROUND(85.253, 1);
+Result: 85.3
+
+
+SELECT CEIL(12.5);
+Result: 13
+
+SELECT CEIL(12.1);
+Result: 13
+
+
+SELECT CEIL(-12.3);
+Result: -12
+
+SELECT CEIL(-12);
+Result: -12
+
+
+SELECT CEILING(12.5);
+Result: 13
+
+SELECT CEILING(-12.3);
+Result: -12
+
+
+select sqrt(25);
+Result: 5
+
+SELECT SQRT(-1);
+Result: NULL
+
+SELECT LEAST(8, 9, 10);
+Result: 8
+
+SELECT TRUNCATE(85.253, 1);
+Result: 85.2
+
+SELECT TRUNCATE(85.253, 2);
+Result: 85.25
+
+
+SELECT TRUNCATE(85.253, -1);
+Result: 80
+
+
+SELECT MOD(11, 4);
+Result: 3
+
+SELECT 11 % 4;
+Result: 3
+
+
